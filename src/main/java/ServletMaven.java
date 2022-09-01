@@ -15,6 +15,10 @@ public class ServletMaven extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         response.getWriter().println("hello maven!!");
+        response.getWriter().println("创新新分支，分支提交");
+        response.getWriter().println("创建了，分支提交");
+
+
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
